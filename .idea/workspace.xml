@@ -1,116 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a41f045-3ca4-4ab7-aed0-a5b1dc642aab" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00100.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00100.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00100.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00100.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00100.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00200.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00200.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00200.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00200.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00200.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00300.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00300.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00300.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00300.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00300.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00400.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00400.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00400.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00400.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00400.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00500.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00500.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00500.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00500.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00500.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00600.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00600.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00600.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00600.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00600.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00700.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00700.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00700.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00700.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00700.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00800.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00800.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00800.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00800.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00800.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00900.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00900.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00900.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00900.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-00900.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-final.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-final.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-final.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-final.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\model-final.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\newdocs.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-en\wordmap.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00100.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00100.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00100.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00100.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00100.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00200.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00200.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00200.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00200.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00200.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00300.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00300.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00300.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00300.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00300.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00400.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00400.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00400.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00400.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00400.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00500.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00500.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00500.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00500.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00500.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00600.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00600.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00600.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00600.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00600.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00700.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00700.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00700.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00700.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00700.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00800.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00800.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00800.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00800.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00800.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00900.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00900.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00900.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00900.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-00900.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-final.others" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-final.phi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-final.tassign" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-final.theta" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\model-final.twords" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\trndocs.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\casestudy-vi\wordmap.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\models\twitter\tweets.dat" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\Command.txt" afterPath="$PROJECT_DIR$/library/JGibbLDA-v.1.0/command.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LDA/LDA.java" afterPath="$PROJECT_DIR$/src/LDA/LDA.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7a41f045-3ca4-4ab7-aed0-a5b1dc642aab" name="Default" comment="" />
     <ignored path="TweetMining.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -138,7 +29,7 @@
       <file leaf-file-name="LDA.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LDA/LDA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29928315" vertical-offset="1023" max-vertical-offset="2159">
+            <state vertical-scroll-proportion="0.43152454" vertical-offset="1023" max-vertical-offset="2159">
               <caret line="70" column="70" selection-start-line="70" selection-start-column="70" selection-end-line="70" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -810,12 +701,12 @@
       <option name="number" value="Default" />
       <updated>1444641480098</updated>
       <workItem from="1444650378172" duration="3869000" />
-      <workItem from="1444654568829" duration="5299000" />
+      <workItem from="1444654568829" duration="5332000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9168000" />
+    <option name="totallyTimeSpent" value="9201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -832,14 +723,14 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29180887" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29180887" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25189108" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25189108" sideWeight="0.49879518" order="4" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25189108" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25189108" sideWeight="0.50120485" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1072,7 +963,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LDA/LDA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29928315" vertical-offset="1023" max-vertical-offset="2159">
+        <state vertical-scroll-proportion="0.43152454" vertical-offset="1023" max-vertical-offset="2159">
           <caret line="70" column="70" selection-start-line="70" selection-start-column="70" selection-end-line="70" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
