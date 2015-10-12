@@ -45,8 +45,10 @@ public class Preprocessor {
         IndonesianStemmer stemmer = new IndonesianStemmer();
         for (int i=0; i<collection.size(); i++)
         {
-            if (formalize)
+            if (formalize) {
                 collection.getInstance(i).setText(formalizer.formalizeSentence(collection.getInstance(i).getText().toString()));
+                collection.getInstance(i).setText(collection.getInstance(i).getText().toString().toLowerCase());
+            }
 
             if (stopwordsremoval)
             {

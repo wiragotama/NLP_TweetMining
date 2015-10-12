@@ -108,7 +108,7 @@ public class Tweet {
     private String punctuationTrimming(String word)
     {
         StringBuffer sb = new StringBuffer("");
-        char[] punctuationList = {'!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '[', ']', '\'', '\"', '>', '<', '/', '\\', '?', '|', '+', '{', '}', ':', ';', ',', '.', ' ', '-'};
+        char[] punctuationList = {'!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '[', ']', '\'', '\"', '>', '<', '/', '\\', '?', '|', '+', '{', '}', ':', ';', ',', '.', ' ', '-','_'};
         for (int i=0; i<word.length(); i++)
         {
             boolean found=false;
