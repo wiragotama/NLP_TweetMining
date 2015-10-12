@@ -45,25 +45,40 @@ public class CSVLoader
     public void loadCSVFile(String path)
     {
         FileInputStream inputStream = null;
-        List<String> header = new ArrayList();
-//        System.out.println("[CSVLoader] Load File "+path);
+        System.out.println("[CSVLoader] Load File "+path);
         char separator = ',';
         int number = 0;
         try 
         {
             inputStream = new FileInputStream(path);
-            header = getSeparatedLine(inputStream, separator);
+            List<String> header = getSeparatedLine(inputStream, separator);
+
+            CharSequence cs1 = "Positive";
+            CharSequence cs2 = "positive";
+            CharSequence cs3 = "Negative";
+            CharSequence cs4 = "negative";
 
             List<String> line = getSeparatedLine(inputStream, separator);
             while (line!=null && !line.isEmpty())
             {
                 if (line.get(header.indexOf(contentLabel))!=null)
                 {
-                    Tweet newInstance = new Tweet(line.get(header.indexOf(contentLabel)));
+
+                    String sentiment = line.get(5);
+                    int sent = 0;
+                    if (sentiment.contains(cs1) || sentiment.contains(cs2)) {
+                        sent = 1;
+                    }
+                    else if (sentiment.contains(cs3) || sentiment.contains(cs4)) {
+                        sent = -1;
+                    }
+
+                    Tweet newInstance = new Tweet(line.get(header.indexOf(contentLabel)), sent);
+
                     tweetCollection.add(newInstance);
-//                    System.out.println("[CSVLoader] read row "+number);
+//                  System.out.println("[CSVLoader] read row "+number);
                     number++;
-//                    if (number==5) break;
+                  if (number==5) break;
                 }
                 line = getSeparatedLine(inputStream, separator);
             }
@@ -103,8 +118,9 @@ public class CSVLoader
                     str.append(character);
                 character = (char) inputStream.read();
             }
-            if (!str.toString().isEmpty())
+            if (!str.toString().isEmpty()) {
                 line.add(str.toString());
+            }
             return line;
         }
         catch (IOException ex) {

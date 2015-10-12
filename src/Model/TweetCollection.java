@@ -44,7 +44,7 @@ public class TweetCollection {
     }
     
     /**
-     * @return papersCollection size
+     * @return collection size
      */
     public int size()
     {
@@ -52,7 +52,7 @@ public class TweetCollection {
     }
     
     /**
-     * @return dataTokenizedInstances
+     * @return list of tweet
      */
     public List<Tweet> getInstances()
     {
@@ -76,11 +76,12 @@ public class TweetCollection {
     public void add(Tweet instance)
     {
         Tweet newInstance = new Tweet(instance);
+        newInstance.setSentiment(instance.getSentiment());
         this.tweets.add(newInstance);
     }
     
     /**
-     * Add new instances from other DataTokenizedsInstances to this collection
+     * Add new instances from other collection to this collection
      * @param dataInstances 
      */
     public void add(TweetCollection dataInstances)
