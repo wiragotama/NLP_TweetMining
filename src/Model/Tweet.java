@@ -55,12 +55,33 @@ public class Tweet {
     public Tweet(String tweetText, int sentiment)
     {
         this.sentiment = sentiment;
+        //delete @... because it is the twitter receiver
+        boolean found = false;
+        int i = 0;
+        while (i<tweetText.length() && !found) {
+            if (tweetText.charAt(i)=='@')
+            {
+                StringBuffer oldChar = new StringBuffer("");
+                int awal = i;
+                int akhir =0;
+                int j = i;
+                while (j<tweetText.length() && tweetText.charAt(j)!=' ')
+                {
+                    oldChar.append(tweetText.charAt(j));
+                    j++;
+                }
+                akhir = j;
+                found = true;
+                tweetText = tweetText.replace(oldChar.toString(), "");
+            }
+            else i++;
+        }
 
         //splitting
         CharSequence cs4 = "http";
         this.text = new ArrayList<>();
         String temp = "";
-        for (int i=0; i<tweetText.length(); i++) {
+        for (i=0; i<tweetText.length(); i++) {
             if (tweetText.charAt(i) != ' ') {
                 temp += tweetText.charAt(i);
             } else {

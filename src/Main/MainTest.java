@@ -18,10 +18,10 @@ public class MainTest {
         System.out.println("\nBefore Preprocessing");
         tweetCollection.print();
 
-        Preprocessor preprocesssor = new Preprocessor("stopwords.txt");
+        /*Preprocessor preprocesssor = new Preprocessor("stopwords.txt");
         preprocesssor.NLPPreprocess(true, true, true, tweetCollection);
         System.out.println("\nAfter Preprocessing");
-        tweetCollection.print();
+        tweetCollection.print();*/
 
         /*VSM vsm = new VSM();
         vsm.makeTFIDFWeightMatrix(0, true, false, tweetCollection);
