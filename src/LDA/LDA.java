@@ -63,7 +63,7 @@ public class LDA {
 
         try
         {
-            PrintWriter writer = new PrintWriter("LDA_input_file.txt", "UTF-8");
+            PrintWriter writer = new PrintWriter("tweets.dat", "UTF-8");
             writer.println(tweetCollectionSize);
             for(int i=0; i<tweetCollectionSize; i++)
             {

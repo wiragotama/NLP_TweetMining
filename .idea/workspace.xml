@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a41f045-3ca4-4ab7-aed0-a5b1dc642aab" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\LDA_input_file.txt" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\timothy.pratama\Desktop\NLP Tweet Mining\library\JGibbLDA-v.1.0\Command.txt" afterPath="$PROJECT_DIR$/library/JGibbLDA-v.1.0/command.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LDA/LDA.java" afterPath="$PROJECT_DIR$/src/LDA/LDA.java" />
     </list>
     <ignored path="TweetMining.iws" />
@@ -28,32 +30,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LDA.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LDA.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LDA/LDA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="973" max-vertical-offset="2040">
-              <caret line="59" column="55" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.87080103" vertical-offset="768" max-vertical-offset="2040">
+              <caret line="65" column="60" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2830#2831#0" expanded="true" />
-                <element signature="e#2868#2869#0" expanded="true" />
-                <element signature="e#2939#2940#0" expanded="true" />
-                <element signature="e#2993#2994#0" expanded="true" />
-                <element signature="e#3020#3021#0" expanded="true" />
-                <element signature="e#3046#3047#0" expanded="true" />
-                <element signature="e#3081#3082#0" expanded="true" />
-                <element signature="e#3111#3112#0" expanded="true" />
+                <element signature="e#2822#2823#0" expanded="true" />
+                <element signature="e#2860#2861#0" expanded="true" />
+                <element signature="e#2931#2932#0" expanded="true" />
+                <element signature="e#2985#2986#0" expanded="true" />
+                <element signature="e#3012#3013#0" expanded="true" />
+                <element signature="e#3038#3039#0" expanded="true" />
+                <element signature="e#3073#3074#0" expanded="true" />
+                <element signature="e#3103#3104#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LDA_input_file.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LDA_input_file.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74862385" vertical-offset="0" max-vertical-offset="351662">
-              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -61,7 +53,7 @@
       <file leaf-file-name="Tweet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/Tweet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2616" max-vertical-offset="3145">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2600" max-vertical-offset="3145">
               <caret line="202" column="30" selection-start-line="202" selection-start-column="30" selection-end-line="202" selection-end-column="30" />
               <folding>
                 <element signature="e#4664#4665#0" expanded="true" />
@@ -672,12 +664,12 @@
       <option name="number" value="Default" />
       <updated>1444641480098</updated>
       <workItem from="1444650378172" duration="3869000" />
-      <workItem from="1444654568829" duration="2661000" />
+      <workItem from="1444654568829" duration="2945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6530000" />
+    <option name="totallyTimeSpent" value="6814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -694,14 +686,14 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29180887" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29180887" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25037822" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25037822" sideWeight="0.49879518" order="4" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25037822" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25037822" sideWeight="0.50120485" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -763,14 +755,14 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2830#2831#0" expanded="true" />
-            <element signature="e#2868#2869#0" expanded="true" />
-            <element signature="e#2939#2940#0" expanded="true" />
-            <element signature="e#2993#2994#0" expanded="true" />
-            <element signature="e#3020#3021#0" expanded="true" />
-            <element signature="e#3046#3047#0" expanded="true" />
-            <element signature="e#3081#3082#0" expanded="true" />
-            <element signature="e#3111#3112#0" expanded="true" />
+            <element signature="e#2822#2823#0" expanded="true" />
+            <element signature="e#2860#2861#0" expanded="true" />
+            <element signature="e#2931#2932#0" expanded="true" />
+            <element signature="e#2985#2986#0" expanded="true" />
+            <element signature="e#3012#3013#0" expanded="true" />
+            <element signature="e#3038#3039#0" expanded="true" />
+            <element signature="e#3073#3074#0" expanded="true" />
+            <element signature="e#3103#3104#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -911,6 +903,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0592334" vertical-offset="155" max-vertical-offset="595">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Tweet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2600" max-vertical-offset="3145">
@@ -922,39 +924,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0592334" vertical-offset="155" max-vertical-offset="595">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LDA/LDA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="973" max-vertical-offset="2040">
-          <caret line="59" column="55" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.87080103" vertical-offset="768" max-vertical-offset="2040">
+          <caret line="65" column="60" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2830#2831#0" expanded="true" />
-            <element signature="e#2868#2869#0" expanded="true" />
-            <element signature="e#2939#2940#0" expanded="true" />
-            <element signature="e#2993#2994#0" expanded="true" />
-            <element signature="e#3020#3021#0" expanded="true" />
-            <element signature="e#3046#3047#0" expanded="true" />
-            <element signature="e#3081#3082#0" expanded="true" />
-            <element signature="e#3111#3112#0" expanded="true" />
+            <element signature="e#2822#2823#0" expanded="true" />
+            <element signature="e#2860#2861#0" expanded="true" />
+            <element signature="e#2931#2932#0" expanded="true" />
+            <element signature="e#2985#2986#0" expanded="true" />
+            <element signature="e#3012#3013#0" expanded="true" />
+            <element signature="e#3038#3039#0" expanded="true" />
+            <element signature="e#3073#3074#0" expanded="true" />
+            <element signature="e#3103#3104#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LDA_input_file.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74862385" vertical-offset="0" max-vertical-offset="351662">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
