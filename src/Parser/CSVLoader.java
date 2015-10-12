@@ -46,7 +46,7 @@ public class CSVLoader
     {
         FileInputStream inputStream = null;
         List<String> header = new ArrayList();
-        System.out.println("[CSVLoader] Load File "+path);
+//        System.out.println("[CSVLoader] Load File "+path);
         char separator = ',';
         int number = 0;
         try 
@@ -61,9 +61,9 @@ public class CSVLoader
                 {
                     Tweet newInstance = new Tweet(line.get(header.indexOf(contentLabel)));
                     tweetCollection.add(newInstance);
-                    System.out.println("[CSVLoader] read row "+number);
+//                    System.out.println("[CSVLoader] read row "+number);
                     number++;
-                    if (number==5) break;
+//                    if (number==5) break;
                 }
                 line = getSeparatedLine(inputStream, separator);
             }
