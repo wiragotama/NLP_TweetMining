@@ -45,7 +45,7 @@ public class CSVLoader
     public void loadCSVFile(String path)
     {
         FileInputStream inputStream = null;
-        System.out.println("[CSVLoader] Load File "+path);
+//        System.out.println("[CSVLoader] Load File "+path);
         char separator = ',';
         int number = 0;
         try 

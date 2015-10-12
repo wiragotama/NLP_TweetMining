@@ -37,8 +37,10 @@ public class LDA {
 
         //Created VSM from dataset
         //TODO: remove this comment (commented for testing LDA only)
-//        System.out.println("Creating VSM...");
-//        vsm = new VSM();
+        System.out.println("Creating VSM...");
+        vsm = new VSM();
+        vsm.listOfAllTermsInDocuments(tweetCollection);
+        System.out.println("Term Size: " + vsm.getTerms().size());
 //        vsm.makeTFIDFWeightMatrix(0, true, false, tweetCollection);
     }
 
