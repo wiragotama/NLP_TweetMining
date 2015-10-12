@@ -3,6 +3,7 @@ package Main;
 import Model.TweetCollection;
 import NLP.Preprocessor;
 import Parser.CSVLoader;
+import VSM.*;
 
 /**
  * Created by wiragotama on 10/12/15.
@@ -20,5 +21,9 @@ public class MainTest {
         preprocesssor.NLPPreprocess(true, true, true, tweetCollection);
         System.out.println("\nAfter Preprocessing");
         tweetCollection.print();
+
+        VSM vsm = new VSM();
+        vsm.makeTFIDFWeightMatrix(0, true, false, tweetCollection);
+        vsm.printWeightMatrix();
     }
 }
