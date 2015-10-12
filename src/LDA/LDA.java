@@ -60,26 +60,33 @@ public class LDA {
         System.out.println("Generating input file...");
         int tweetCollectionSize = tweetCollection.getInstances().size();
         List<String> currentTweet;
+        StringBuffer tempOutput = new StringBuffer();
+        int jumlahDataSet = 0;
 
         try
         {
-            PrintWriter writer = new PrintWriter("tweets.dat", "UTF-8");
-            writer.println(tweetCollectionSize);
+            PrintWriter writer = new PrintWriter("library/JGibbLDA-v.1.0/models/twitter/tweets.dat", "UTF-8");
             for(int i=0; i<tweetCollectionSize; i++)
             {
                 currentTweet = tweetCollection.getInstance(i).getText();
+                if(currentTweet.size() > 0)
+                {
+                    jumlahDataSet ++;
+                }
                 for(int j=0; j<currentTweet.size(); j++)
                 {
                     if(j < currentTweet.size()-1)
                     {
-                        writer.print(currentTweet.get(j) + " ");
+                        tempOutput = tempOutput.append(currentTweet.get(j) + " ");
                     }
                     else
                     {
-                        writer.println(currentTweet.get(j));
+                        tempOutput = tempOutput.append(currentTweet.get(j)).append("\n");
                     }
                 }
             }
+            tempOutput = tempOutput.insert(0, jumlahDataSet).append(tempOutput);
+            writer.print(tempOutput.toString());
             writer.close();
         }
         catch (FileNotFoundException | UnsupportedEncodingException e)
