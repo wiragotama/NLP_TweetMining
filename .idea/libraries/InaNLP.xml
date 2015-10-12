@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="InaNLP">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/library/InaNLP.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/ipostagger.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/lingpipe-4.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/library/ipostagger.jar!/" />
+    </SOURCES>
+  </library>
+</component>
