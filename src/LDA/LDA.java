@@ -77,7 +77,7 @@ public class LDA {
                 {
                     if(j < currentTweet.size()-1)
                     {
-                        tempOutput = tempOutput.append(currentTweet.get(j) + " ");
+                        tempOutput = tempOutput.append(currentTweet.get(j)).append(" ");
                     }
                     else
                     {
@@ -85,7 +85,7 @@ public class LDA {
                     }
                 }
             }
-            tempOutput = tempOutput.insert(0, jumlahDataSet).append(tempOutput);
+            tempOutput = tempOutput.insert(0, "\n").insert(0, jumlahDataSet);
             writer.print(tempOutput.toString());
             writer.close();
         }

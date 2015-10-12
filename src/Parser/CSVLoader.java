@@ -78,7 +78,7 @@ public class CSVLoader
                     tweetCollection.add(newInstance);
 //                  System.out.println("[CSVLoader] read row "+number);
                     number++;
-                  if (number==5) break;
+//                  if (number==5) break;
                 }
                 line = getSeparatedLine(inputStream, separator);
             }
