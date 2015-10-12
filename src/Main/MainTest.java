@@ -14,6 +14,7 @@ public class MainTest {
         CSVLoader loader = new CSVLoader();
         loader.loadCSVFile("jokowi_sort_uniq.csv");
         TweetCollection tweetCollection = new TweetCollection(loader.getCollection());
+        loader.clear();
         System.out.println("\nBefore Preprocessing");
         tweetCollection.print();
 
@@ -22,8 +23,8 @@ public class MainTest {
         System.out.println("\nAfter Preprocessing");
         tweetCollection.print();
 
-        VSM vsm = new VSM();
+        /*VSM vsm = new VSM();
         vsm.makeTFIDFWeightMatrix(0, true, false, tweetCollection);
-        vsm.printWeightMatrix();
+        vsm.printWeightMatrix();*/
     }
 }

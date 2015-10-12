@@ -5,9 +5,6 @@
  */
 package Model;
 
-import IndonesianNLP.IndonesianSentenceFormalization;
-import IndonesianNLP.IndonesianStemmer;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,37 +15,47 @@ import java.util.List;
 public class Tweet {
     
     private List<String> text; //text of document, could be say tokenized text
+    private int sentiment; //-1 for negative, 0 for other/neutral, 1 for positive
     
     /**
      * Default Constructor
      * @param text
+     * @param sentiment
      */
-    public Tweet(ArrayList<String> text)
+    public Tweet(ArrayList<String> text, int sentiment)
     {
         this.text = new ArrayList();
         int len = text.size();
         for (int i=0; i<len; i++)
             this.text.add(text.get(i));
+
+        this.sentiment = sentiment;
     }
 
     /**
      * Constructor
      * @param terms
+     * @param sentiment
      */
-    public Tweet(List<String> terms)
+    public Tweet(List<String> terms, int sentiment)
     {
         this.text = new ArrayList();
         int len = terms.size();
         for (int i=0; i<len; i++)
             this.text.add(terms.get(i));
+
+        this.sentiment = sentiment;
     }
 
     /**
      * Constructor from raw tweet text
      * @param tweetText, raw tweet text
+     * @param sentiment, sentiment
      */
-    public Tweet(String tweetText)
+    public Tweet(String tweetText, int sentiment)
     {
+        this.sentiment = sentiment;
+
         //splitting
         CharSequence cs4 = "http";
         this.text = new ArrayList<>();
@@ -125,6 +132,7 @@ public class Tweet {
         int len = tweet.getText().size();
         for (int i=0; i<len; i++)
             this.text.add(tweet.getText().get(i));
+        this.sentiment = tweet.getSentiment();
     }
 
     /**
@@ -155,7 +163,25 @@ public class Tweet {
     {
         return this.text;
     }
-    
+
+    /**
+     *
+     * @return int
+     */
+    public int getSentiment()
+    {
+        return this.sentiment;
+    }
+
+    /**
+     *
+     * @param sentiment
+     */
+    public void setSentiment(int sentiment)
+    {
+        this.sentiment = sentiment;
+    }
+
     /**
      * 
      * @param text new text
@@ -200,6 +226,6 @@ public class Tweet {
      */
     public void print()
     {
-        System.out.println(this.text.toString());
+        System.out.println(this.text.toString()+ " sentiment: "+this.sentiment);
     }
 }
