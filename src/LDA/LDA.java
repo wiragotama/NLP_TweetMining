@@ -8,12 +8,13 @@ import VSM.VSM;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
+import java.util.List;
 
 /**
  * Created by timothy.pratama on 12-Oct-15.
  */
 public class LDA {
-    private TweetCollection tweets;
+    private TweetCollection tweetCollection;
     private VSM vsm;
 
     /**
@@ -27,18 +28,18 @@ public class LDA {
         System.out.println("Loading CSV...");
         CSVLoader csvLoader = new CSVLoader();
         csvLoader.loadCSVFile(dataset);
-        tweets = new TweetCollection(csvLoader.getCollection());
+        tweetCollection = new TweetCollection(csvLoader.getCollection());
 
         //Preprocess TweetCollection
         System.out.println("Preprocessing Tweets...");
         Preprocessor preprocessor = new Preprocessor(stopwords);
-        preprocessor.NLPPreprocess(true, true, true, tweets);
+        preprocessor.NLPPreprocess(true, true, true, tweetCollection);
 
         //Created VSM from dataset
         //TODO: remove this comment (commented for testing LDA only)
 //        System.out.println("Creating VSM...");
 //        vsm = new VSM();
-//        vsm.makeTFIDFWeightMatrix(0, true, false, tweets);
+//        vsm.makeTFIDFWeightMatrix(0, true, false, tweetCollection);
     }
 
     /**
@@ -51,13 +52,35 @@ public class LDA {
      * [documentM]
      *
      * --> [documenti] = [wordi1] [wordi2] ... [wordiiN] (separated by blank character)
+     * --> M = number of documents
      * ====================
      */
-    public void generateLDAInput()
+    public void generateInputFile()
     {
+        System.out.println("Generating input file...");
+        int tweetCollectionSize = tweetCollection.getInstances().size();
+        List<String> currentTweet;
+
         try
         {
-            PrintWriter writer = new PrintWriter("the-file-name.txt", "UTF-8");
+            PrintWriter writer = new PrintWriter("LDA_input_file.txt", "UTF-8");
+            writer.println(tweetCollectionSize);
+            for(int i=0; i<tweetCollectionSize; i++)
+            {
+                currentTweet = tweetCollection.getInstance(i).getText();
+                for(int j=0; j<currentTweet.size(); j++)
+                {
+                    if(j < currentTweet.size()-1)
+                    {
+                        writer.print(currentTweet.get(j) + " ");
+                    }
+                    else
+                    {
+                        writer.println(currentTweet.get(j));
+                    }
+                }
+            }
+            writer.close();
         }
         catch (FileNotFoundException | UnsupportedEncodingException e)
         {
@@ -65,12 +88,12 @@ public class LDA {
         }
     }
 
-    public TweetCollection getTweets() {
-        return tweets;
+    public TweetCollection getTweetCollection() {
+        return tweetCollection;
     }
 
-    public void setTweets(TweetCollection tweets) {
-        this.tweets = tweets;
+    public void setTweetCollection(TweetCollection tweetCollection) {
+        this.tweetCollection = tweetCollection;
     }
 
     public VSM getVsm() {
@@ -86,6 +109,6 @@ public class LDA {
         String datasetPath = "jokowi_sort_uniq.csv";
         String stopwordPath = "stopwords.txt";
         LDA lda = new LDA(datasetPath, stopwordPath);
-        lda.getTweets().print();
+        lda.generateInputFile();
     }
 }
