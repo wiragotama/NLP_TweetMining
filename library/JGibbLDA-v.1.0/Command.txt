@@ -1,1 +1,1 @@
-java -mx1024M -cp bin;lib/args4j-2.0.6.jar jgibblda.LDA -est -alpha 0.1 -beta 0.1 -ntopics 2000 -niters 10000 -savestep 5000 -twords 50 -dfile models/twitter/tweets.dat
+java -mx1024M -cp bin;lib/args4j-2.0.6.jar jgibblda.LDA -est -alpha 0.1 -beta 0.1 -ntopics 2000 -niters 10000 -savestep 5000 -twords 50 -dir models/twitter -dfile tweets.dat
