@@ -73,7 +73,7 @@ public class TopicAssigner {
                 /* Iterasi untuk setiap kata di dalam setiap topik */
                 for(int k=0; k<topicCollection.get(j).size(); k++)
                 {
-                    tempTopicDistribution = topicCollection.get(i).get(k);
+                    tempTopicDistribution = topicCollection.get(j).get(k);
                     if(tempTweet.getText().contains(tempTopicDistribution.getWord()))
                     {
                         tempTopicProbability += tempTopicDistribution.getProbability();
@@ -93,7 +93,18 @@ public class TopicAssigner {
     private int maxIndex(ArrayList<TopicProbability> topicProbabilities)
     {
         int maxIndex = 0;
-        int maxValue = 0;
+        double maxValue = 0.0;
+        TopicProbability tempTopicProbability;
+
+        for(int i=0; i<topicProbabilities.size(); i++)
+        {
+            tempTopicProbability = topicProbabilities.get(i);
+            if(tempTopicProbability.getProbability() > maxValue)
+            {
+                maxIndex = i;
+                maxValue = tempTopicProbability.getProbability();
+            }
+        }
         return topicProbabilities.get(maxIndex).getTopicIndex();
     }
 
