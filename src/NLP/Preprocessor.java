@@ -67,7 +67,7 @@ public class Preprocessor {
                 for (int j = 0; j < collection.getInstance(i).size(); j++)
                 {
                     collection.getInstance(i).instance().setWord(j,
-                            stemmer.stem(collection.getInstance(i).instance().getWord(j)));
+                    stemmer.stem(collection.getInstance(i).instance().getWord(j)));
                 }
             }
         }
