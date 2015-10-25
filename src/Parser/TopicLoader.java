@@ -11,18 +11,18 @@ import java.util.ArrayList;
  * Created by timothy.pratama on 25-Oct-15.
  */
 public class TopicLoader {
-    private ArrayList<ArrayList<TopicDistribution>> topics;
+    private ArrayList<ArrayList<TopicDistribution>> topicCollection;
 
     public TopicLoader()
     {
-        topics = new ArrayList<>();
+        topicCollection = new ArrayList<>();
     }
 
-    public ArrayList<ArrayList<TopicDistribution>> getTopics() {
-        return topics;
+    public ArrayList<ArrayList<TopicDistribution>> getCollection() {
+        return topicCollection;
     }
 
-    public void loadTopics(String topicPath)
+    public void loadTopicFile(String topicPath)
     {
         String currentLine;
         String [] words;
@@ -44,7 +44,7 @@ public class TopicLoader {
                     }
                     else
                     {
-                        topics.add(currentTopic);
+                        topicCollection.add(currentTopic);
                         currentTopic = new ArrayList<>();
                     }
                 }
@@ -55,7 +55,7 @@ public class TopicLoader {
                 }
                 currentLine = reader.readLine();
             }
-            topics.add(currentTopic);
+            topicCollection.add(currentTopic);
             reader.close();
         }
 
@@ -68,6 +68,6 @@ public class TopicLoader {
     public static void main(String[] args)
     {
         TopicLoader topicLoader = new TopicLoader();
-        topicLoader.loadTopics("model-final.twords");
+        topicLoader.loadTopicFile("model-final.twords");
     }
 }
