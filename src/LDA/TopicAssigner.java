@@ -115,7 +115,7 @@ public class TopicAssigner {
                 }
 
                 /* Print topik nya */
-                printer.println(tweetTopicCollection.get(i)+1);
+                printer.println(tweetTopicCollection.get(i));
             }
             printer.close();
         }
