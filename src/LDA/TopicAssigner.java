@@ -5,6 +5,9 @@ import NLP.Preprocessor;
 import Parser.CSVLoader;
 import Parser.TopicLoader;
 
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 
 /**
@@ -85,6 +88,43 @@ public class TopicAssigner {
         }
     }
 
+    public void generateCSVFile(String filename)
+    {
+        try
+        {
+            Tweet tempTweet;
+
+            PrintWriter printer = new PrintWriter(filename, "UTF-8");
+            printer.println("tweet,topic");
+            for(int i=0; i<rawTweetCollection.size(); i++)
+            {
+                tempTweet = rawTweetCollection.getInstance(i);
+
+                /* Print tweet nya */
+                for(int j=0; j<tempTweet.getText().size(); j++)
+                {
+                    printer.print(tempTweet.getWord(j));
+                    if(j < tempTweet.getText().size()-1)
+                    {
+                        printer.print(" ");
+                    }
+                    else
+                    {
+                        printer.print(",");
+                    }
+                }
+
+                /* Print topik nya */
+                printer.println(tweetTopicCollection.get(i)+1);
+            }
+            printer.close();
+        }
+        catch (FileNotFoundException | UnsupportedEncodingException e)
+        {
+            e.printStackTrace();
+        }
+    }
+
     /**
      * Mengembalikan index topik dengan peluang topik yang paling besar
      * @param topicProbabilities
@@ -114,5 +154,6 @@ public class TopicAssigner {
         topicAssigner.loadTweets("jokowi_sort_uniq.csv");
         topicAssigner.loadTopics("model-final.twords");
         topicAssigner.build();
+        topicAssigner.generateCSVFile("labeled_tweet.csv");
     }
 }
