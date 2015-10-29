@@ -1,0 +1,16 @@
+daftar kemungkinan kategori untuk NLP
+- buruh
+- politik
+- ekonomi
+- relawan jokowi
+- jasmev 
+- kemeja putih
+- jokowi
+- kandidat pendamping jokowi (cawapres)
+- koalisi
+- video jokowi
+- prabowo vs jokowi
+- demo
+- hapus subsidi bbm
+- keluhan
+- other
